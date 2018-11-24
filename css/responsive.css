@@ -1,0 +1,460 @@
+/*==Media Query Start for device screen width 1024px ===*/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 30px;
+	}
+	.button .btn{
+		font-size: 16px;
+	}
+	#about .col-md-5>.feature-img>img{
+		margin-left: 40px;
+	}
+	#products #myCarousel{
+		margin: 50px 10px 50px 50px;
+	}
+	.carousel-control-icon{
+		display: block;
+	}
+	.carousel-controler {
+	    left: 35%;
+	}
+	#products .nav-pills{
+		display: none;
+	}
+	#myCarousel>.nav-pills>li>a{ 
+		margin: 10px 5px;
+	}
+	.carousel-inner .item .slider-text p{
+		margin: 0 15px;
+	}
+	#feature h1{
+		margin-left: 40px;
+	}
+	#feature .feature-thumbnail{
+		margin-left: 40px;
+	}
+	#our-news h1{
+		margin-left: 15px;
+	}
+	#our-news .nav-tabs.nav-justified>li>a{
+		margin-left: 15px;
+	}
+}
+/*==Media Query End for device screen width 1024px ===*/
+
+
+/*==Media Query start for device screen min-width 768px and max-width 991px===*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	h1{
+		font-size: 25px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	.fa-2x{
+		font-size: 20px;
+	}
+	#about .col-md-5>.feature-img>img, 
+	#about .modal-body .col-md-4>.feature-img>img,
+	#products .modal .col-md-4>.feature-img>img, 
+	#our-news .tab-pane .col-md-6>.feature-img>img{
+		margin-left: 0;
+		width: 230px;
+		height: 230px;
+	}
+	#products #myCarousel{
+		margin: 0 0 0 100px;
+	}
+	.button .btn{
+		font-size: 15px;
+	}
+	.modal-body{
+		padding: 0 10px;
+		margin: 0;
+	}
+	.modal-body h3{
+		padding: 0;
+		font-size: 20px;
+		color: rgba(255,255,255,0.9);
+	}
+	.modal-body p{
+		font-size: 16px;
+		margin-left: 10px;
+		padding: 10px;
+	}
+	#feature-text h1{
+		margin-left: 0;
+	}
+	#feature-text p{
+		font-size: 20px;
+	}
+	#about h1 {
+    	margin-left: 60px;
+	}
+	#about .col-md-6 p{
+		font-size: 16px;
+		padding: 20px 0 20px 30px;
+		text-align: right;
+	}
+	#about .col-md-5>.feature-img>img{
+		margin-left: 60px;
+		width: 200px;
+		height: 200px;
+	}
+	#about .feature-pragraph{
+		margin-left: 30px;
+	}
+	#about .feature-pragraph p{
+		font-size: 16px;
+	}
+	.carousel-control-icon{
+		display: block;
+	}
+	.carousel-controler {
+	    left: 35%;
+	}
+	#products .carousel-inner .item .slider-text p{
+		margin: 0 7px;
+		font-size: 16px;
+	}
+	#products .nav-pills{
+		display: none;
+	}
+	#our-history h1 {
+	    margin-left: 50px;
+	}
+	#our-history .media-left{
+		padding-right: 10px;
+	}
+	#our-history .media-body>p{
+		font-size: 16px;
+	}
+	#feature h1 {
+	    margin-left: 50px;
+	}
+	#feature .feature-thumbnail {
+	    margin-left: 50px;
+	}
+	#feature .thumbnail{
+		background-color: rgba(0,0,0,0.3);
+		transition: 0.5s;
+	}
+	#feature .thumbnail:hover{
+		background-color: rgba(255,255,255,1.0);
+	}
+	#our-news h1 {
+	    margin-left: 50px;
+	}
+	#our-news .nav-tabs.nav-justified>li>a {
+     	margin-left: 17px; 
+	    font-size: 12px;
+	    border-bottom: none;
+	}
+	#our-news .nav-tabs.nav-justified>.active>a, 
+	#our-news .nav-tabs.nav-justified>.active>a:focus,
+	#our-news .nav-tabs.nav-justified>.active>a:hover{
+	 	border-bottom: none;
+	}
+	#our-news h4{
+		font-size: 18px;
+	}
+	#our-news p{
+		font-size: 16px;
+	}
+	#contact-us h1{
+		margin-left: 50px;
+	}
+	.textarea-and-submit-button{
+		margin-left: 50%
+	}
+}
+/*==Media Query End for device screen min-width 768px and max-width 991px===*/
+
+/*==Media Query Start for device screen max-width 768px ===*/
+@media only screen and (max-width: 768px){
+	#products #myCarousel{
+		margin: 0 0 0 50px;
+	}
+}
+/*==Media Query end for device screen max-width 768px ===*/
+
+/*==Media Query Start for device screen max-width 640px ===*/
+@media only screen and (max-width: 640px){
+	.close{
+		top: -8px;
+		left: 0.3%;
+	}
+	.modal-body p{
+		padding: 0;
+	}
+	#about .col-md-5>.feature-img>img, 
+	#about .modal-body .col-md-4>.feature-img>img, 
+	#products .modal .col-md-4>.feature-img>img,
+	#our-news .tab-pane .col-md-6>.feature-img>img{
+		width: 250px;
+		height: 250px;
+	}
+	#about .col-md-5>.feature-img, 
+	#about .modal-body .col-md-4>.feature-img, 
+	#products .modal .col-md-4>.feature-img,
+	#our-news .tab-pane .col-md-6>.feature-img{
+		text-align: center;
+		margin: 20px 0;
+	}
+	#left-sidebar{
+		position: relative;
+		background-color: transparent;
+	}
+	.navbar-nav{
+		margin: 0;
+	}
+	.navbar-toggle {
+		margin-top: 105px;
+		margin-right: 50px;
+		padding: 10PX;
+	}
+	.navbar-collapse{
+		border-top: none;
+		background-color: rgba(0,0,0,0.4);
+	}
+	.navbar-default .navbar-toggle:focus,
+	 .navbar-default .navbar-toggle:hover{
+		background-color: #495B6F;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: rgba(255,255,255,0.8);
+	}
+	.navbar-toggle .icon-bar{
+		width: 30px;
+		height: 5px;
+	}
+	.navbar-default .navbar-brand{
+		margin-left: 30px;
+	}
+	#logo-and-navbar .sidebar-footer{
+		display: none;
+	}
+	#feature-text h1{
+		margin-left: 0;
+	}
+	#feature-text p{
+		font-size: 20px;
+	}
+	#about h1{
+		margin-left: 0;
+	}
+	#about .col-md-5>.feature-img>img{
+		margin-left: 0;
+	}
+	#about .feature-pragraph {
+	     margin-left: 0; 
+	}
+	#products #myCarousel{
+		margin: 0;
+	}
+	#products .nav-justified{
+		display: none;
+	}
+	.carousel-control{
+		left: 0;
+	}
+	#our-history h1{
+		margin-left: 0;
+	}
+	.media-body, 
+	.media-left, 
+	.media-right{
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+	}
+	#feature h1{
+		margin-left: 0;
+	}
+	#feature .feature-thumbnail{
+		margin-left: 0;
+	}
+	.thumbnail-margin-bottom{
+		margin-bottom: 30px;
+		min-width: 100%;
+	}
+	#our-news h1{
+		margin-left: 0;
+	}
+	#our-news .nav{
+		padding-left: 30px; 
+	}
+	.nav-tabs.nav-justified>li{
+		float: left;
+	}
+	#our-news .nav-tabs.nav-justified>li>a{
+		margin-left: 0;
+		font-size: 17px;
+		border-bottom: none;
+	}
+	#our-news .nav-tabs.nav-justified>.active>a, 
+	#our-news .nav-tabs.nav-justified>.active>a:focus, 
+	#our-news .nav-tabs.nav-justified>.active>a:hover{
+		border-bottom: none;
+	}
+	#our-news h4{
+		margin-left: 0;
+	}
+	#our-news p{
+		margin-left: 0;
+	}
+	#contact-us h1{
+		margin-left: 0;
+	}
+	.textarea-and-submit-button{
+		margin-left: 0;
+		text-align: center;
+	}
+	#contact-us textarea{
+		min-width: 100%;
+	}
+	#footer-bottom{
+		display: block;
+	}
+}
+/*==Media Query end for device screen max-width 640px ===*/
+
+/*==Media Query Start for device screen max-width 480px ===*/
+@media only screen and (max-width: 480px){
+	#about .col-md-5>.feature-img>img, 
+	#about .modal-body .col-md-4>.feature-img>img, 
+	#products .modal .col-md-4>.feature-img>img,
+	#our-news .tab-pane .col-md-6>.feature-img>img{
+		width: 200px;
+		height: 200px;
+	}
+	#feature-text{
+		padding: 50px 0 200px 0;
+	}
+	#feature-text h1{
+		margin-top: 20px;
+	}
+	#feature-text p{
+		font-size: 18px;
+	}
+	#about .col-md-7 p{
+		font-size: 16px;
+	}
+	#about .feature-pragraph h3{
+		margin-left: 20px;
+	}
+	#about .feature-pragraph p{
+		padding-top: 5px;
+		margin-left: 0;
+	}
+	#our-news .nav-tabs.nav-justified{
+		padding-left: 50px;
+		text-align: center;
+	}
+	#our-news .nav-tabs.nav-justified>li>a{
+		margin-left: -4px;
+		font-size: 20px;
+	}
+}
+/*==Media Query end for device screen max-width 480px ===*/
+
+/*==Media Query Start for device screen max-width 484px ===*/
+@media only screen and (max-width: 484px){
+	#our-news .nav{
+		padding-left: 20px;
+	}
+	#our-news .nav{
+		padding-left: 0;
+	}
+	#our-news .nav-tabs.nav-justified>li>a{
+		font-size: 16px;
+	}
+}
+/*==Media Query end for device screen max-width 480px ===*/
+
+/*==Media Query start for device screen max-width 375px ===*/
+@media only screen and (max-width: 375px){
+	#our-news .nav-tabs.nav-justified{
+		padding-left: 20px;
+	}
+	#our-news .nav-tabs.nav-justified>li>a{
+		margin: 0;
+		font-size: 17px;
+	}
+	.carousel-control{
+		left: -6px;
+	}
+}
+/*==Media Query end for device screen max-width 375px ===*/
+
+/*==Media Query Start for device screen max-width 320px ===*/
+@media only screen and (max-width: 320px){
+	h1{
+		font-size: 18px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	.button .btn{
+		font-size: 12px;
+	}
+	#about .col-md-5>.feature-img>img, 
+	#about .modal-body .col-md-4>.feature-img>img, 
+	#products .modal .col-md-4>.feature-img>img, 
+	#our-news .tab-pane .col-md-6>.feature-img>img{
+		margin-left: 0;
+	}
+	.modal-body p{
+		font-size: 15px;
+	}
+	.navbar-toggle{
+		margin-right: 10px;
+	}
+	.navbar-default .navbar-brand{
+		margin-left: 0;
+	}
+	#feature-text p{
+		font-size: 15px;
+	}
+	#about .col-md-7 p{
+		font-size: 15px;
+	}
+	#about .feature-pragraph p{
+		font-size: 15px;
+	}
+	#products .carousel-inner .item .slider-text p{
+		font-size: 15px;
+		margin: 0;
+	}
+	.carousel-control{
+		left: -10px;
+	}
+	#our-history{
+		padding: 100px 0 200px 0;
+	}
+	#our-news{
+		padding: 100px 0 200px 0;
+	}
+	#our-news .nav-tabs.nav-justified{
+		margin: 0;
+		padding: 0;
+	}
+	#our-news .nav-tabs.nav-justified>li>a{
+		margin-left: 0;
+		font-size: 15px;
+	}
+	#our-news p{
+		font-size: 15px;
+	}
+	#our-history .media-body>p{
+		font-size: 15px;
+	}
+	#feature{
+		padding: 100px 0 200px 0;
+	}
+	#contact-us{
+		padding: 100px 0 100px 0;
+	}
+}
+/*==Media Query end for device screen max-width 320px ===*/
